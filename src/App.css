@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 500px;
+  background-color: aqua;
+  border-radius: 12px;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+}
+img{
+  border-radius: 50%;
+  border: 1px solid red;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+button{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: green;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+input{
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  text-align: center;
+  font-size: large;
+
+}
+.in-data{
+  padding: 20px;
+
+
+}
